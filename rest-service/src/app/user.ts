@@ -16,6 +16,7 @@ export class AddressObject
     constructor(
         public street:String,
         public suite:String,
+        public name:String,
         public geo:GeoCoordinates[]
     ){}
 }
