@@ -1,0 +1,15 @@
+<div>
+  <ul>
+    <li *ngFor="let user of users">
+      name: {{user.name}} <br>
+      username: {{user.username}} <br> 
+      email: {{user.email}} <br>
+      phone: {{user.phone}} <br>
+      website: {{user.website}} <br>
+      address Street: {{user.address.street}}<br>
+      address Suite: {{user.address.suite}}<br>
+      longitude : {{user.address.geo.lng}}<br>
+      latitude : {{user.address.geo.lat}}
+    </li>
+  </ul>
+</div>
