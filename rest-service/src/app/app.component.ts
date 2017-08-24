@@ -10,7 +10,9 @@ export class AppComponent implements OnInit{
   title = 'app';
   users;
 
+  myName:string='string';
   constructor(private userService:UserService){}
+
 
   ngOnInit()
   {
